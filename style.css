@@ -129,3 +129,65 @@ display:inline-block;
 	float:right;
 	max-width:60%;
 }
+
+.testimonial2 {
+	margin: 10px auto 0 auto;
+	font-size:10px;
+	width:200px;
+}
+
+.titre_testimonial2 {
+	text-align:center;
+	color:orange;
+}
+
+.img_testimonial2 {
+display:inline-block;
+	max-width:100%;
+}
+
+.img_testimonial2  img{
+	border-radius: 100%;
+}
+
+.texte_testimonial2 {
+	display:inline-block;
+	max-width:60%;
+	margin-left:10px;
+}
+
+.signature_testimonial2 {
+	float:right;
+	max-width:60%;
+}
+
+.testimonial3 {
+	margin: 10px auto 0 auto;
+	font-size:10px;
+	width:200px;
+}
+
+.titre_testimonial3 {
+	text-align:center;
+	color:orange;
+}
+
+.img_testimonial3 {
+display:inline-block;
+	max-width:100%;
+}
+
+.img_testimonial3  img{
+	border-radius: 100%;
+}
+
+.texte_testimonial3 {
+	display:inline-block;
+	max-width:60%;
+	margin-left:10px;
+}
+
+.signature_testimonial3 {
+	float:right;
+	max-width:60%;
+}
