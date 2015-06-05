@@ -4,6 +4,8 @@ body {
 	margin-top:5px;
 }
 
+/* ---------------------------------------------- HEADER ---------------------------------------------- */
+
 .logo {
 	height:auto;
 	max-width:100%;
@@ -19,6 +21,8 @@ body {
 	max-width:100%;
 }
 
+/* ---------------------------------------------- BANNER ---------------------------------------------- */
+
 .banner {
 	height:auto;
 	margin: 5px 0 0;
@@ -30,6 +34,8 @@ body {
 	position:relative;
 	top:-90px;
 }
+
+/* ---------------------------------------------- DESCRIPTION ---------------------------------------------- */
 
 .titre_description {
 	text-align:center;
@@ -82,6 +88,8 @@ body {
 	position:relative;
 	top:10px;
 }
+
+/* ---------------------------------------------- TESTIMONIALS ---------------------------------------------- */
 
 .testimonial {
 	background:#e8e8e8;
@@ -192,6 +200,12 @@ display:inline-block;
 	max-width:60%;
 }
 
+/* ---------------------------------------------- FOOTER ---------------------------------------------- */
+
+.footer {
+	margin-top:15px;
+}
+
 .a_propos {
 	color:blue;
 	display:inline-block;
@@ -213,4 +227,15 @@ display:inline-block;
 
 .texte-infos_pratiques {
 	font-size:8px;
+}
+
+.titre_partenaires {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.partenaires {
+	margin:10px auto;
+	max-width:100%;
+	text-align:center;
 }
