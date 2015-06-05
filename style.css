@@ -191,3 +191,26 @@ display:inline-block;
 	float:right;
 	max-width:60%;
 }
+
+.a_propos {
+	color:blue;
+	display:inline-block;
+	font-size:10px;
+	margin-left:90px;
+}
+
+.texte-a_propos {
+	font-size:8px;
+}
+
+.infos_pratiques {
+	color:blue;
+	display:inline-block;
+	font-size:10px;
+	float:right;
+	margin-right:80px;
+}
+
+.texte-infos_pratiques {
+	font-size:8px;
+}
