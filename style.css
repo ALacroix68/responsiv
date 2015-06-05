@@ -124,3 +124,8 @@ display:inline-block;
 	max-width:60%;
 	margin-left:10px;
 }
+
+.signature_testimonial1 {
+	float:right;
+	max-width:60%;
+}
