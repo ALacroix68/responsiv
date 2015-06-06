@@ -1,6 +1,6 @@
 body {
 	font-size:14px;
-	font-family: Verdana, Calibri, Arial;
+	font-family: Roboto, Calibri, Arial;
 }
 
 /* ---------------------------------------------- HEADER ---------------------------------------------- */
@@ -48,9 +48,10 @@ body {
 .titre_banner {
 	color:#a5fffe;
 	left:40px;
+	font-size:18px;
 	position:relative;
 	text-shadow: 2px 3px 4px #000;
-	top:-110px;
+	top:-140px;
 }
 
 /* ---------------------------------------------- DESCRIPTION ---------------------------------------------- */
@@ -124,32 +125,36 @@ body {
 .texte_para2 {
 	font-size:9px;
 	padding:0 10px 0 30px;
-	text-align:justify;
+	text-align:right;
 }
 
 /* ---------------------------------------------- TESTIMONIALS ---------------------------------------------- */
 
 .testimonial {
 	background:#e8e8e8;
+	font-family: Georgia, Calibri, Arial;
 	margin-top:10px;
-	max-width:100%;
-	height:auto;
+	padding: 30px 0 40px;
 }
 
 .titre_testimonial {
+	font-family: Roboto, Calibri, Arial;
 	text-align:center;
 	font-size:16px;
 }
 
 .sous-titre_testimonial  {
+	font-family: Roboto, Calibri, Arial;
 	text-align:center;
 	font-size:8px;
 }
 
 .sous-titre_testimonial img {
-	margin-top:5px;
+	margin:5px 0 20px;
 	width:30px;
 }
+
+/* --------- TESTIMONIAL 1 --------- */
 
 .testimonial1 {
 	margin: 10px auto 0 auto;
@@ -159,12 +164,30 @@ body {
 
 .titre_testimonial1 {
 	text-align:center;
-	color:orange;
+	color:#de3d04;
+}
+
+.titre_testimonial1 img{
+	width:90px;
+	height:5px;
+	margin-left: 10px;
+	opacity:0.6;
+}
+
+.titre_testimonial1 img:first-child {
+	margin-right: 10px;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+	transform : rotate(180deg);
+}
+
+.testimonial1 table {
+	margin:5px 0;
 }
 
 .img_testimonial1 {
 	display:inline-block;
-	width:50px;
+	width:60px;
 }
 
 .img_testimonial1  img{
@@ -176,15 +199,16 @@ body {
 	display:inline-block;
 	max-width:60%;
 	margin-left:10px;
+	text-align:justify;
 }
 
 .signature_testimonial1 {
 	display:block;
 	float:right;
-	max-width:60%;
-	position:relative;
-	top:-15px;
+	text-align: right;
 }
+
+/* --------- TESTIMONIAL 2 --------- */
 
 .testimonial2 {
 	margin: 10px auto 0 auto;
@@ -194,12 +218,30 @@ body {
 
 .titre_testimonial2 {
 	text-align:center;
-	color:orange;
+	color:#de3d04;
+}
+
+.titre_testimonial2 img{
+	width:90px;
+	height:5px;
+	margin-left: 10px;
+	opacity:0.6;
+}
+
+.titre_testimonial2 img:first-child {
+	margin-right: 10px;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+	transform : rotate(180deg);
+}
+
+.testimonial2 table {
+	margin:5px 0;
 }
 
 .img_testimonial2 {
 	display:inline-block;
-	width:50px;
+	width:60px;
 }
 
 .img_testimonial2  img{
@@ -211,15 +253,16 @@ body {
 	display:inline-block;
 	max-width:60%;
 	margin-left:10px;
+	text-align:justify;
 }
 
 .signature_testimonial2 {
 	display:block;
 	float:right;
-	max-width:60%;
-	position:relative;
-	top:-15px;
+	text-align: right;
 }
+
+/* --------- TESTIMONIAL 3 --------- */
 
 .testimonial3 {
 	margin: 10px auto 0 auto;
@@ -229,12 +272,30 @@ body {
 
 .titre_testimonial3 {
 	text-align:center;
-	color:orange;
+	color:#de3d04;
+}
+
+.titre_testimonial3 img{
+	width:90px;
+	height:5px;
+	margin-left: 10px;
+	opacity:0.6;
+}
+
+.titre_testimonial3 img:first-child {
+	margin-right: 10px;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+	transform : rotate(180deg);
+}
+
+.testimonial3 table {
+	margin:5px 0;
 }
 
 .img_testimonial3 {
 	display:inline-block;
-	width:50px;
+	width:60px;
 }
 
 .img_testimonial3  img{
@@ -246,14 +307,13 @@ body {
 	display:inline-block;
 	max-width:60%;
 	margin-left:10px;
+	text-align:justify;
 }
 
 .signature_testimonial3 {
 	display:block;
 	float:right;
-	max-width:60%;
-	position:relative;
-	top:-15px;
+	text-align:right;
 }
 
 @media (min-width: 600px) {
@@ -276,10 +336,10 @@ body {
 
 .footer {
 	margin-top:15px;
+	color:#17649a;
 }
 
 .a_propos {
-	color:blue;
 	display:inline-block;
 	font-size:10px;
 	margin-left:90px;
@@ -290,7 +350,6 @@ body {
 }
 
 .infos_pratiques {
-	color:blue;
 	display:inline-block;
 	font-size:10px;
 	float:right;
@@ -310,4 +369,8 @@ body {
 	margin:10px auto;
 	max-width:100%;
 	text-align:center;
+}
+
+.partenaires img {
+	margin-right: 15px;
 }
