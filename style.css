@@ -1,10 +1,15 @@
 body {
 	font-size:14px;
 	font-family: Verdana, Calibri, Arial;
-	margin-top:5px;
 }
 
 /* ---------------------------------------------- HEADER ---------------------------------------------- */
+
+.header {
+	background:#f0fbff;
+	color:#17649a;
+	padding:10px;
+}
 
 .logo {
 	height:auto;
@@ -19,11 +24,22 @@ body {
 	height:auto;
 	margin: 2px 25px 0 0;
 	max-width:100%;
+	line-height:20px;
+}
+
+.menu img {
+	width:15px;
+	margin-right:5px;
 }
 
 /* ---------------------------------------------- BANNER ---------------------------------------------- */
 
 .banner {
+	position:relative;
+	top:-5px;
+}
+
+.img_banner {
 	height:auto;
 	margin: 5px 0 0;
 	max-width:100%;
@@ -52,10 +68,13 @@ body {
 
 .img_para1 {
 	display:inline-block;
-	height:auto;
 	margin-left:25px;
-	max-width:100%;
 	width:80px;
+}
+
+.img_para1 img {
+	max-width:100%;
+	height:auto;
 }
 
 .texte_para1 {
@@ -69,22 +88,26 @@ body {
 
 .para2 {
 	margin-top:10px;
+	margin-bottom:20px;
 }
 
 .img_para2 {
 	display:inline-block;
 	float:right;
-	height:auto;
 	margin-right:25px;
-	max-width:100%;
 	width:80px;
+}
+
+.img_para2 img {
+	max-width:100%;
+	height:auto;
 }
 
 .texte_para2 {
 	display:inline-block;
 	font-size:9px;
 	margin-left:70px;
-	max-width:50%;
+	max-width:48%;
 	position:relative;
 	top:10px;
 }
