@@ -1,6 +1,6 @@
 body {
 	width:100%;
-	font-size:14px;
+	font-size:0.875em;
 	font-family: Roboto, Calibri, Arial;
 }
 
@@ -9,19 +9,19 @@ body {
 .header {
 	background:#f0fbff;
 	color:#17649a;
-	padding:10px;
+	padding:0.625em;
 }
 
 .logo {
 	height:auto;
 	max-width:100%;
-	margin-left:15px;
+	margin-left:0.9375em;
 }
 
 .menu {
 	display:inline-block;
 	float:right;
-	font-size:10px;
+	font-size:0.625em;
 	height:auto;
 	margin: 2px 25px 0 0;
 	max-width:100%;
@@ -49,10 +49,10 @@ body {
 .titre_banner {
 	color:#a5fffe;
 	left:40px;
-	font-size:18px;
+	font-size:1.125em;
 	position:relative;
 	text-shadow: 2px 3px 4px #000;
-	top:-140px;
+	top:-110px;
 }
 
 /* ---------------------------------------------- DESCRIPTION ---------------------------------------------- */
@@ -61,7 +61,7 @@ body {
 .description {
 	display: inline-block;
 	width: 100%;
-	margin-bottom: 45px;
+	margin-bottom: 20px;
 	background-color: white;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -79,12 +79,14 @@ body {
 	padding-right:50px;
 	text-align: justify;
 	direction: ltr;
+	font-size:0.8em;
 }
 .description_right p{
 	padding-left: 50px;
 	padding-right:40px;
 	text-align: justify;
 	direction: rtl;
+	font-size:0.8em;
 }
 .description_right strong {
 	display: block;
@@ -134,16 +136,16 @@ body {
 
 .titre_description {
 	text-align:center;
-	font-size:16px;
+	font-size:1.3em;
 }
 
 .sous-titre_description {
 	text-align:center;
-	font-size:8px;
+	font-size:0.7em;
 }
 
 .sous-titre_description img {
-	margin:5px 0;
+	margin:5px 0 20px;
 	width:30px;
 }
 
@@ -170,7 +172,7 @@ body {
 }
 
 .texte_para1 {
-	font-size:9px;
+	font-size:0.5625em;
 	padding:0 10px 0 30px;
 	text-align:justify;
 }
@@ -199,7 +201,7 @@ body {
 }
 
 .texte_para2 {
-	font-size:9px;
+	font-size:0.5625em;
 	padding:0 10px 0 30px;
 	text-align:right;
 }
@@ -216,13 +218,13 @@ body {
 .titre_testimonial {
 	font-family: Roboto, Calibri, Arial;
 	text-align:center;
-	font-size:16px;
+	font-size:1.3em;
 }
 
 .sous-titre_testimonial  {
 	font-family: Roboto, Calibri, Arial;
 	text-align:center;
-	font-size:8px;
+	font-size:0.7em;
 }
 
 .sous-titre_testimonial img {
@@ -234,7 +236,7 @@ body {
 
 .testimonial1 {
 	margin: 10px auto 0 auto;
-	font-size:10px;
+	font-size:0.625em;
 	width:70%;
 }
 
@@ -244,7 +246,7 @@ body {
 }
 
 .titre_testimonial1 img{
-	width:90px;
+	width:50px;
 	height:5px;
 	margin-left: 10px;
 	opacity:0.6;
@@ -255,10 +257,6 @@ body {
 	-ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
 	transform : rotate(180deg);
-}
-
-.testimonial1 table {
-	margin:5px 0;
 }
 
 .img_testimonial1 {
@@ -288,7 +286,7 @@ body {
 
 .testimonial2 {
 	margin: 10px auto 0 auto;
-	font-size:10px;
+	font-size:0.625em;
 	width:70%;
 }
 
@@ -298,7 +296,7 @@ body {
 }
 
 .titre_testimonial2 img{
-	width:90px;
+	width:50px;
 	height:5px;
 	margin-left: 10px;
 	opacity:0.6;
@@ -309,10 +307,6 @@ body {
 	-ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
 	transform : rotate(180deg);
-}
-
-.testimonial2 table {
-	margin:5px 0;
 }
 
 .img_testimonial2 {
@@ -342,7 +336,7 @@ body {
 
 .testimonial3 {
 	margin: 10px auto 0 auto;
-	font-size:10px;
+	font-size:0.625em;
 	width:70%;
 }
 
@@ -352,7 +346,7 @@ body {
 }
 
 .titre_testimonial3 img{
-	width:90px;
+	width:50px;
 	height:5px;
 	margin-left: 10px;
 	opacity:0.6;
@@ -363,10 +357,6 @@ body {
 	-ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
 	transform : rotate(180deg);
-}
-
-.testimonial3 table {
-	margin:5px 0;
 }
 
 .img_testimonial3 {
@@ -418,23 +408,23 @@ body {
 
 .a_propos {
 	display:inline-block;
-	font-size:11px;
+	font-size:0.6875em;
 	margin-left:90px;
 }
 
 .texte-a_propos {
-	font-size:8px;
+	font-size:0.7em;
 }
 
 .infos_pratiques {
 	display:inline-block;
-	font-size:11px;
+	font-size:0.6875em;
 	float:right;
 	margin-right:80px;
 }
 
 .texte-infos_pratiques {
-	font-size:8px;
+	font-size:0.7em;
 }
 
 .titre_partenaires {
@@ -449,7 +439,7 @@ body {
 }
 
 .titre_partenaires {
-	font-size:14px;
+	font-size:0.875em;
 }
 
 .partenaires img {
