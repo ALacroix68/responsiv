@@ -4,6 +4,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
 		<title>Accueil</title>
+		<link href="reset.css" rel="stylesheet">
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="style.css" rel="stylesheet">
 	</head>
@@ -13,8 +14,8 @@
 	<div class="row header">
 		<img src="img/logo_petit.png" class="logo" alt="Logo" title="Logo" />
 		<div class="menu">
-		<img src="img/inscription.png" alt="S'inscrire" title="S'inscrire" />S'inscrire<br>
-		<img src="img/connect.png"  alt="Se connecter" title="Se connecter" />Se connecter
+		<a href="#"><img src="img/inscription.png" alt="S'inscrire" title="S'inscrire" />S'inscrire</a><br>
+		<a href="#"><img src="img/connect.png"  alt="Se connecter" title="Se connecter" />Se connecter</a>
 		</div>
 	</div>
 	
@@ -33,32 +34,22 @@
 		</div>
 		
 	</div>
-		
-	<div class="row para1">
-		<table cellspacing=5>
-		<tr>
-		<td class="img_para1">
-			<img src="img/velo1.png" alt="Img1" title="Img1" />
-		</td>
-		<td class="texte_para1">
-			Desription<br>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum metus,Lorem ipsum dolor sit amet.
-		</td>
-		</table>
-	</div>
 	
-	<div class="row para2">
-		<table cellspacing=5>
-		<tr>
-		<td class="texte_para2">
-			Desription<br>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum metus,Lorem ipsum dolor sit amet.
-		</td>
-		<td class="img_para2">
-			<img src="img/velo2.png" alt="Img2" title="Img2" />
-		</td>
-		</table>
-	</div>
+	<div>
+            <ul class="descriptions">
+                <li class="description description_left">
+                    <span class="image_description_left img1"></span>
+                    <p><strong>description 1</strong>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </li>
+
+                <li class="description description_right">
+                    <span class="image_description_right img2"></span>
+                    <p><strong>description 2</strong>
+                    Lorem Ipsum is simply dummy text</p>
+                </li>
+            </ul>
+    </div>
 	
 	<div class="testimonial">
 		<div class="row">

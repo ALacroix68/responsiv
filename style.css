@@ -1,4 +1,5 @@
 body {
+	width:100%;
 	font-size:14px;
 	font-family: Roboto, Calibri, Arial;
 }
@@ -55,6 +56,81 @@ body {
 }
 
 /* ---------------------------------------------- DESCRIPTION ---------------------------------------------- */
+
+/*Corrections*/
+.description {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 45px;
+	background-color: white;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:	0px 0px 5px 0px rgba(50, 50, 50, 0.5);
+}
+.description p{
+	display: table-cell;
+	vertical-align: middle;
+}
+.description_left p{
+	padding-left: 40px;
+	padding-right:50px;
+	text-align: justify;
+	direction: ltr;
+}
+.description_right p{
+	padding-left: 50px;
+	padding-right:40px;
+	text-align: justify;
+	direction: rtl;
+}
+.description_right strong {
+	display: block;
+	text-align: right;
+}
+.description_left strong {
+	display: block;
+	text-align: left;
+}
+.image_description_left{
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	float: left;
+	text-align: left;
+	width:100px;
+	height: 74px;
+}
+.image_description_right{
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	float: right;
+	text-align: right;
+	width:100px;
+	height: 74px;
+}
+
+.img1{
+	background: url("img/velo1.png") no-repeat top center scroll transparent;
+	background-size: cover;
+}
+
+.img2{
+	background: url("img/velo2.png") no-repeat top center scroll transparent;
+		background-size: cover;
+}
+
+
+/*fin Corrections*/
 
 .titre_description {
 	text-align:center;
