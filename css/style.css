@@ -122,12 +122,12 @@ body {
 }
 
 .img1{
-	background: url("img/velo1.png") no-repeat top center scroll transparent;
+	background: url("../img/velo1.png") no-repeat top center scroll transparent;
 	background-size: cover;
 }
 
 .img2{
-	background: url("img/velo2.png") no-repeat top center scroll transparent;
+	background: url("../img/velo2.png") no-repeat top center scroll transparent;
 		background-size: cover;
 }
 
