@@ -335,13 +335,14 @@ body {
 /* ---------------------------------------------- FOOTER ---------------------------------------------- */
 
 .footer {
-	margin-top:15px;
+	background:#f0fbff;
 	color:#17649a;
+	padding-top:15px;
 }
 
 .a_propos {
 	display:inline-block;
-	font-size:10px;
+	font-size:11px;
 	margin-left:90px;
 }
 
@@ -351,7 +352,7 @@ body {
 
 .infos_pratiques {
 	display:inline-block;
-	font-size:10px;
+	font-size:11px;
 	float:right;
 	margin-right:80px;
 }
@@ -369,6 +370,10 @@ body {
 	margin:10px auto;
 	max-width:100%;
 	text-align:center;
+}
+
+.titre_partenaires {
+	font-size:14px;
 }
 
 .partenaires img {
