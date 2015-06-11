@@ -119,16 +119,14 @@ body {
 	vertical-align: middle;
 }
 .description_left p{
-	padding-left: 40px;
-	padding-right:50px;
+	padding: 10px 50px 0 40px;
 	text-align: justify;
 	direction: ltr;
 	font-size:0.8em;
 }
 .description_right p{
 	float:right;
-	padding-left: 50px;
-	padding-right:40px;
+	padding: 10px 40px 0 50px;
 	text-align: justify;
 	direction: rtl;
 	font-size:0.8em;
@@ -136,10 +134,12 @@ body {
 .description_right strong {
 	display: block;
 	text-align: right;
+	font-size:1.1em;
 }
 .description_left strong {
 	display: block;
 	text-align: left;
+	font-size:1.1em;
 }
 .image_description_left{
 	-webkit-border-top-left-radius: 5px;
