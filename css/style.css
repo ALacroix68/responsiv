@@ -53,7 +53,8 @@ body {
     .menu {
         margin-top: 1em;
         margin-right: 10em;
-        line-height: 3em;
+        line-height: 2.5em;
+        font-size: 0.725em;
     }
 }
 /* ---------------------------------------------- BANNER ---------------------------------------------- */
@@ -204,7 +205,7 @@ body {
     .description {
         text-align: center;
         margin: 30px;
-        width:auto;
+        width: auto;
     }
     .description strong {
         font-size: 1.1em;
@@ -518,7 +519,7 @@ body {
     .titre_testimonial1 img,
     .titre_testimonial2 img,
     .titre_testimonial3 img,
-    .titre_testimonial4 img{
+    .titre_testimonial4 img {
         width: 10%;
     }
     .img_testimonial1,
@@ -605,15 +606,17 @@ body {
 @media (min-width: 600px) {
     .a_propos {
         font-size: 1em;
-        margin: 20px 0 0 300px;
+        float: left;
+        display: block;
+        margin: 0 0 0 90px;
     }
     .texte-a_propos {
         font-size: 0.7em;
     }
     .infos_pratiques {
         font-size: 1em;
-        float: none;
-        margin: 20px 0 0 150px;
+        float: right;
+        margin: 0px 0px 0px 80px;
     }
     .texte-infos_pratiques {
         font-size: 0.7em;
@@ -622,16 +625,24 @@ body {
         display: inline-block;
         width: 50%;
     }
+    
+    .partenaires {
+    margin: 10px auto;
+    max-width: 70%;
+    text-align: center;
+}
+    
     .partenaires_gen {
         display: inline-block;
         position: relative;
-        top: -70px;
+        top: auto;
+        float: right;
     }
     .titre_partenaires {
         font-size: 1.2em;
     }
     .partenaires img {
-        margin-right: 30px;
+        margin: 5px;
     }
     .partenaire_monde {
         width: 200px;
