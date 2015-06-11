@@ -4,6 +4,15 @@ body {
 	font-family: Roboto, Calibri, Arial;
 }
 
+/* --------- MEDIA QUERIES --------- */
+
+@media (min-width: 600px) {
+
+	body {
+		font-size:1.2em;
+	}
+}
+
 /* ---------------------------------------------- HEADER ---------------------------------------------- */
 
 .header {
@@ -23,14 +32,32 @@ body {
 	float:right;
 	font-size:0.625em;
 	height:auto;
-	margin: 2px 25px 0 0;
+	margin: 0.2em 1.5em 0 0;
 	max-width:100%;
-	line-height:20px;
+	line-height:2em;
 }
 
 .menu img {
 	width:15px;
 	margin-right:5px;
+}
+
+/* --------- MEDIA QUERIES --------- */
+
+@media (min-width: 600px) {
+
+	.header {
+		padding:1em;
+	}
+
+	.logo {
+		margin-left:5em;
+		margin-top:0.4em;
+	}
+	
+	.menu {
+		margin-right:10em;
+	}
 }
 
 /* ---------------------------------------------- BANNER ---------------------------------------------- */
@@ -53,6 +80,23 @@ body {
 	position:relative;
 	text-shadow: 2px 3px 4px #000;
 	top:-110px;
+}
+
+/* --------- MEDIA QUERIES --------- */
+
+@media (min-width: 600px) {
+
+	.img_banner {
+		width:100%;
+	}
+
+	.titre_banner {
+		font-size:2.5em;
+		left:200px;
+		position:relative;
+		top:-450px;
+	}
+	
 }
 
 /* ---------------------------------------------- DESCRIPTION ---------------------------------------------- */
@@ -205,6 +249,13 @@ body {
 	font-size:0.5625em;
 	padding:0 10px 0 30px;
 	text-align:right;
+}
+
+/* --------- MEDIA QUERIES --------- */
+
+@media (min-width: 600px) {
+
+
 }
 
 /* ---------------------------------------------- TESTIMONIALS ---------------------------------------------- */
@@ -383,7 +434,13 @@ body {
 	text-align:right;
 }
 
+/* --------- MEDIA QUERIES --------- */
+
 @media (min-width: 600px) {
+	.testimonial {
+		height:25em;
+	}
+
 	.testimonial1 {
 		float:left;
 		width:40%;
