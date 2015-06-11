@@ -553,3 +553,77 @@ body {
 .partenaires img {
 	margin-right: 15px;
 }
+
+.partenaire_monde {
+	width:100px;
+}
+
+.partenaire_minutes {
+	width:30px;
+}
+
+.partenaire_tf1 {
+	width:70px;
+}
+
+.partenaire_bbc {
+	width:35px;
+}
+
+/* --------- MEDIA QUERIES --------- */
+
+@media (min-width: 600px) {
+	.a_propos {
+		font-size:1em;
+		margin: 20px 0 0 300px;
+	}
+	
+	.texte-a_propos {
+		font-size:0.7em;
+	}
+	
+	.infos_pratiques {
+		font-size:1em;
+		float: none;
+		margin: 20px 0 0 150px;
+	}
+	
+	.texte-infos_pratiques {
+		font-size:0.7em;
+	}
+	
+	.infos_gen {
+		display:inline-block;
+		width:50%;
+	}
+	
+	.partenaires_gen {
+		display:inline-block;
+		position:relative;
+		top:-70px;	
+	}
+	
+	.titre_partenaires {
+		font-size:1.2em;
+	}
+	
+	.partenaires img {
+		margin-right: 30px;
+	}
+	
+	.partenaire_monde {
+		width:200px;
+	}
+
+	.partenaire_minutes {
+		width:60px;
+	}
+
+	.partenaire_tf1 {
+		width:140px;
+	}
+
+	.partenaire_bbc {
+		width:70px;
+	}
+}
