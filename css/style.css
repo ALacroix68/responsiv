@@ -390,7 +390,7 @@ body {
 /* --------- TESTIMONIAL 4 --------- */
 
 .testimonial4 {
-	margin: 80px 50px 0 auto;
+	margin: 70px 100px 0 auto;
 	font-size:0.625em;
 	width:40%;
 	float:right;
@@ -464,22 +464,46 @@ body {
 	}
 
 	.testimonial {
-		height:25em;
+		height:27em;
 	}
-
+	
 	.testimonial1 {
 		float:left;
 		width:40%;
+		margin-left:100px;
 	}
 	.testimonial2 {
 		float:right;
 		width:40%;
+		margin-right:100px;
 	}
 	.testimonial3 {
 		float:left;
 		width:40%;
-		margin-top:80px;
+		margin-top:70px;
+		margin-left:100px;
 	}
+	
+	.titre_testimonial1, .titre_testimonial2, .titre_testimonial3 {
+		font-size:1.3em;	
+	}
+	
+	.titre_testimonial1 img, .titre_testimonial2 img, .titre_testimonial3 img {
+		width:200px;
+	}
+	
+	.img_testimonial1, .img_testimonial2, .img_testimonial3 {
+		width:80px;
+	}
+	
+	.texte_testimonial1, .texte_testimonial2, .texte_testimonial3 {
+		font-size:1.1em;
+	}
+	
+	.signature_testimonial1, .signature_testimonial2, .signature_testimonial3 {
+		margin-right:40px;
+	}
+	
 }
 
 /* ---------------------------------------------- FOOTER ---------------------------------------------- */
