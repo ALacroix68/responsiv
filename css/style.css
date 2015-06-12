@@ -73,7 +73,7 @@ body {
 .titre_banner {
     color: #a5fffe;
     left: 35px;
-    font-size: 1.125em;
+    font-size: 2em;
     position: absolute;
     text-shadow: 2px 3px 4px #000;
     top: 20%;
@@ -493,7 +493,7 @@ body {
         width: 50px;
     }
     .testimonial {
-        height: 27em;
+        height: 51em;
     }
     .testimonial1 {
         float: left;
@@ -607,23 +607,24 @@ body {
     .a_propos {
         font-size: 1em;
         float: left;
-        display: block;
-        margin: 0 0 0 90px;
+        display: inline-block;
+        margin: 0 0 0 185px;
     }
     .texte-a_propos {
         font-size: 0.7em;
     }
     .infos_pratiques {
+        display: inline-block;
         font-size: 1em;
         float: right;
-        margin: 0px 0px 0px 80px;
+        margin: 0px 150px 0px 0px;
     }
     .texte-infos_pratiques {
         font-size: 0.7em;
     }
     .infos_gen {
-        display: inline-block;
-        width: 50%;
+        display: block;
+        padding: 15px 0;
     }
     
     .partenaires {
@@ -632,12 +633,7 @@ body {
     text-align: center;
 }
     
-    .partenaires_gen {
-        display: inline-block;
-        position: relative;
-        top: auto;
-        float: right;
-    }
+
     .titre_partenaires {
         font-size: 1.2em;
     }
