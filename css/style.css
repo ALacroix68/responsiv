@@ -72,11 +72,11 @@ body {
 
 .titre_banner {
     color: #a5fffe;
-    left: 40px;
+    left: 35px;
     font-size: 1.125em;
-    position: relative;
+    position: absolute;
     text-shadow: 2px 3px 4px #000;
-    top: -110px;
+    top: 20%;
 }
 /* --------- MEDIA QUERIES --------- */
 
