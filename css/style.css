@@ -675,3 +675,15 @@ body {
         width: 70px;
     }
 }
+
+@media (min-width: 1800px) {
+
+	.a_propos {
+		margin-left: 600px;
+	}
+	
+	.infos_pratiques {
+		margin-right: 600px;
+	}
+
+}
