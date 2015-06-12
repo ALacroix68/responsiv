@@ -524,7 +524,7 @@ body {
     .titre_testimonial2 img,
     .titre_testimonial3 img,
     .titre_testimonial4 img {
-        width: 25%;
+        width: 15%;
     }
     .img_testimonial1,
     .img_testimonial2,
@@ -544,8 +544,8 @@ body {
 }
 
 @media (min-width: 1000px) {
-	.testimonial {
-        height: 29em;
+    .testimonial {
+        height: 32em;
     }
 }
 
