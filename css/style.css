@@ -561,6 +561,15 @@ body {
     }
 }
 
+@media (min-width: 1300px) {
+    .titre_testimonial1 img,
+    .titre_testimonial2 img,
+    .titre_testimonial3 img,
+    .titre_testimonial4 img {
+        width: 30%;
+    }
+}
+
 /* ---------------------------------------------- FOOTER ---------------------------------------------- */
 
 .footer {
@@ -582,7 +591,6 @@ body {
 .infos_pratiques {
     display: inline-block;
     font-size: 0.6875em;
-    float: right;
     margin-right: 80px;
 }
 
@@ -677,13 +685,24 @@ body {
 }
 
 @media (min-width: 1800px) {
-
-	.a_propos {
+		
+	.infos_pratiques {
 		margin-left: 600px;
+		float:none;
+		display:block;
 	}
 	
-	.infos_pratiques {
-		margin-right: 600px;
+	.infos_gen {
+		display:inline-block;
 	}
-
+	
+	.partenaires_gen {
+		display:inline-block;
+		margin-left:100px;
+	}
+	
+	 .partenaires img {
+        margin:10px 20px;
+    }
+	
 }
