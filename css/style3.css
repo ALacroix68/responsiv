@@ -28,7 +28,7 @@ body {
 .menu {
     display: inline-block;
     float: right;
-    font-size: 0.625em;
+    font-size: 0.8em;
     height: auto;
     margin: 0.2em 1.5em 0 0;
     max-width: 100%;
@@ -73,6 +73,49 @@ body {
 
 .second_header {
 	background:#f7f7f7;
+	text-align:center;
+	font-size:2em;
+	color:#4a7da8;
+	padding:20px 0;
+}
+
+.textbox_localisation {
+	border:5px solid #4a7da8;
+	border-radius:8px;
+	height:40px;
+	text-align:left;
+	padding-left:10px;
+	background:#f0fbff;
+	margin:0 15px;
+}
+
+.target {
+	width:40px;
+}
+
+.map {
+	width:100%;
+	height:auto;
+	padding:5px 0 10px;
+	border-top:1px solid rgba(0,0,0,0.3);
+	border-bottom:1px solid rgba(0,0,0,0.3);
+}
+
+.img_map {
+	width:100%;
+	height:auto;
+}
+
+/* --------- MEDIA QUERIES --------- */
+
+@media (min-width: 600px) {
+	.textbox_localisation {
+		height:60px;
+	}
+	
+	.target {
+		width:45px;
+	}
 }
 
 /* ---------------------------------------------- FOOTER ---------------------------------------------- */
@@ -154,7 +197,6 @@ body {
         display: inline-block;
         font-size: 1em;
         float: right;
-        margin: 0px 150px 0px 0px;
     }
     .texte-infos_pratiques {
         font-size: 0.7em;
@@ -193,7 +235,7 @@ body {
 @media (min-width: 1200px) {
 		
 	.infos_pratiques {
-		margin-left: 500px;
+		margin-left: 400px;
 		float:none;
 		display:block;
 	}
@@ -209,5 +251,14 @@ body {
 	 .partenaires img {
         margin:10px 20px;
     }
+}
+
+@media (min-width: 1800px) {
+	.infos_pratiques {
+		margin-left:600px;
+	}
 	
+	.partenaires_gen {
+		margin-left:200px;
+	}
 }

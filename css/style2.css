@@ -366,7 +366,8 @@ body {
 @media (min-width: 1200px) {
 		
 	.infos_pratiques {
-		margin-left: 500px;
+		margin-left: 400px;
+		margin-right:0;
 		float:none;
 		display:block;
 	}
@@ -374,13 +375,23 @@ body {
 	.infos_gen {
 		display:inline-block;
 	}
-	
+		
 	.partenaires_gen {
 		display:inline-block;
 	}
-	
+		
 	 .partenaires img {
         margin:10px 20px;
     }
 	
+}
+
+@media (min-width: 1800px) {
+	.infos_pratiques {
+		margin-left:600px;
+	}
+	
+	.partenaires_gen {
+		margin-left:200px;
+	}
 }
